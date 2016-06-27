@@ -4,19 +4,20 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+<% String basePath=request.getContextPath(); %>
 
 <html lang="en">
 <header>
 	<meta charset="UTF-8">
 	<title>List latest Sina Weibo</title>
-	<link rel="stylesheet" href="/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="/css/styles.css" />
+	<link rel="stylesheet" href="<%=basePath%>/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="<%=basePath%>/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="<%=basePath%>/css/styles.css" />
 
-	<script src="/js/jquery/jquery-2.1.1.min.js"></script>
-	<script src="/js/bootstrap/bootstrap.min.js"></script>
-	<script src="/js/bootstrap/jquery-bootpag.js"></script>
-	<script src="/js/custom/custom.js"></script>
+	<script src="<%=basePath%>/js/jquery/jquery-2.1.1.min.js"></script>
+	<script src="<%=basePath%>/js/bootstrap/bootstrap.min.js"></script>
+	<script src="<%=basePath%>/js/bootstrap/jquery-bootpag.js"></script>
+	<script src="<%=basePath%>/js/custom/custom.js"></script>
 
 </header>
 <body>
