@@ -11,14 +11,10 @@
 	<title>List latest Sina Weibo</title>
 	<link rel="stylesheet" href="/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="/css/styles.css" />
 
 	<script src="/js/jquery/jquery-2.1.1.min.js"></script>
 	<script src="/js/bootstrap/bootstrap.min.js"></script>
-	<script src="/js/angular/angular.min.js"></script>
-	<script src="/js/angular/angular-route.min.js"></script>
-	<script src="/js/bootstrap/ui-bootstrap-custom-0.12.0.min.js"></script>
-	<script src="/js/bootstrap/ui-bootstrap-custom-tpls-0.12.0.min.js"></script>
 	<script src="/js/bootstrap/jquery-bootpag.js"></script>
 	<script src="/js/custom/custom.js"></script>
 
